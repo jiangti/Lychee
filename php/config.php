@@ -9,6 +9,8 @@
 
 if(!defined('LYCHEE')) die('Direct access is not allowed!');
 
+define('APP_PATH', dirname(__DIR__));
+
 // Database configurations
 $db = 'lychee'; //Database name
 $dbUser = 'lychee'; //Username of the database
